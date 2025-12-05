@@ -57,6 +57,42 @@ npm run dev
 npm run build
 ```
 
+## 🌐 在线部署
+
+### GitHub Pages（已配置自动部署）
+
+项目已配置 GitHub Actions 自动部署到 GitHub Pages。
+
+1. **启用 GitHub Pages**：
+   - 进入仓库设置：https://github.com/fuguther/gesture-christmas-tree-2/settings/pages
+   - Source 选择：**GitHub Actions**
+   - 保存设置
+
+2. **自动部署**：
+   - 每次推送到 `main` 分支会自动触发部署
+   - 部署完成后，访问：`https://fuguther.github.io/gesture-christmas-tree-2/`
+
+3. **手动触发部署**：
+   - 在 GitHub 仓库的 Actions 标签页，选择 "Deploy to GitHub Pages" workflow
+   - 点击 "Run workflow" 按钮
+
+### 其他部署选项
+
+#### Vercel（推荐，更简单）
+
+1. 访问 [Vercel](https://vercel.com)
+2. 导入 GitHub 仓库
+3. 自动检测 Vite 配置，点击部署
+4. 完成！会获得一个 `*.vercel.app` 域名
+
+#### Netlify
+
+1. 访问 [Netlify](https://www.netlify.com)
+2. 导入 GitHub 仓库
+3. Build command: `npm run build`
+4. Publish directory: `dist`
+5. 部署完成
+
 ## 📋 使用说明
 
 1. **允许摄像头权限**：应用需要访问摄像头进行手势识别
