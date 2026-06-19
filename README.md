@@ -9,6 +9,11 @@
   <img src="https://img.shields.io/badge/MediaPipe-FF6F00?style=for-the-badge&logo=google&logoColor=white" alt="MediaPipe" />
 </div>
 
+**🔗 在线 Demo:** <https://fuguther.github.io/gesture-christmas-tree-2/> （需允许摄像头权限）
+
+<!-- 截图位：把一张运行截图或演示 GIF 放到 assets/screenshot.png（或 .gif），再取消下一行注释即可显示 -->
+<!-- <p align="center"><img src="assets/screenshot.png" alt="演示截图" width="640" /></p> -->
+
 ## ✨ 特性
 
 - 🎨 **华丽的视觉效果**
